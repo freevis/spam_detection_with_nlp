@@ -95,7 +95,7 @@ predictions = model.predict(X_test_tfidf)
 
 print("\n" + "*" * 50)
 print("             MODEL PERFORMANCE")
-print("=" * 50)
+print("*" * 50)
 
 accuracy = accuracy_score(y_test, predictions)
 
