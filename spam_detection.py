@@ -93,7 +93,7 @@ print("\nModel training completed successfully!")
 
 predictions = model.predict(X_test_tfidf)
 
-print("\n" + "=" * 50)
+print("\n" + "*" * 50)
 print("             MODEL PERFORMANCE")
 print("=" * 50)
 
@@ -146,9 +146,9 @@ def check_message(message):
 # ==================================================
 
 while True:
-    print("\n" + "=" * 50)
+    print("\n" + "-" * 50)
     print("                 MAIN MENU")
-    print("=" * 50)
+    print("-" * 50)
     print("1. Check a message")
     print("2. Quit")
     print("3. Upload a screenshot")
