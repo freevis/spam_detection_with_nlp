@@ -201,7 +201,7 @@ while True:
             print("-" * 40)
 
             confirm = input(
-                "\nDo you want to classify this text? (y/n): "
+                "\nDo you want to spam detect? (y/n): "
             ).strip().lower()
 
             if confirm == "y":
